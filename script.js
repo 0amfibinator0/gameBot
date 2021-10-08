@@ -5,6 +5,7 @@ const isNumber = function (num) {
 };
 
 function one (x) {
+    x = Math.floor(Math.random( ) * (100 - 1 + 1)) + 1;
     function two () {
         let a = prompt('Угадай число от 1 до 100');
         if (a == null) {
@@ -24,4 +25,4 @@ function one (x) {
     }
     two();
 }
-one(46);
+one();
